@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vishnuputhran | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="starfield"></canvas>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <button id="themeToggle">🌙</button>
+  </nav>
+
+  <header class="section">
+    <h1>Hi, I am Vishnuputhran R</h1>
+    <p class="intro">Cyber Security Enthusiast | SQL Expert | Tech Enthusiast | Programmer in Python, Java, C & C++</p>
+  </header>
+
+  <section class="section" id="about">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>I build immersive web experiences using modern tools and a splash of imagination.</p>
+      <a href="resume.pdf" download class="resume-btn">Download My Resume</a>
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <div class="card">
+      <h2>My Skills</h2>
+      <div class="skill"><label>C & C++</label><div class="progress-bar"><div>98%</div></div></div>
+      <div class="skill"><label>Python</label><div class="progress-bar"><div>80%</div></div></div>
+      <div class="skill"><label>HTML, CSS & JavaScript</label><div class="progress-bar"><div>82%</div></div></div>
+      <div class="skill"><label>SQL</label><div class="progress-bar"><div>85%</div></div></div>
+      <div class="skill"><label>Java</label><div class="progress-bar"><div>78%</div></div></div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card" data-tilt>
+        <h3>Cyber Sentinel</h3>
+        <p>AI-powered threat detection dashboard with real-time alerts.</p>
+      </div>
+      <div class="project-card" data-tilt>
+        <h3>Neon Portfolio</h3>
+        <p>Interactive 3D personal site with theme switcher and flying stars.</p>
+      </div>
+      <div class="project-card" data-tilt>
+        <h3>SQL Visualizer</h3>
+        <p>Drag-and-drop interface for building and testing SQL queries.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="card">
+      <h2>Contact Me</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
